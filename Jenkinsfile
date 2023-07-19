@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-         git branch:'master',url:'https://github.com/Raju7860/abcd.git'
+         git branch:'master',url:'https://github.com/Raju7860/spring-boot-project.git'
         bat "./mvnw compile"
       } 
     }
